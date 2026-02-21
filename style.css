@@ -2,3 +2,34 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+}
+h1{
+  font-family:  Century Schoolbook;
+  
+  border-bottom: 1px solid #555;
+}
+p,li,tr,label{
+  font-family: Rockwell;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+
+}
+.main{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+input{
+  margin:5px;
+}
+
+button{
+  margin: 3px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(39, 30, 30);
+  color: white;
+}
